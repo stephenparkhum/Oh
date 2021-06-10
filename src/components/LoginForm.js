@@ -1,6 +1,5 @@
 import React from 'react';
-import Link from 'react-dom'
-import {InputLabel, Button, Input, FormHelperText} from '@material-ui/core';
+import {InputLabel, Button, Input } from '@material-ui/core';
 import FormControl from '@material-ui/core/FormControl';
 
 const LoginForm = () => {
