@@ -1,13 +1,15 @@
-import './App.css';
+import './styles/style.css'
+import LoginForm from './components/LoginForm';
+
+import Splash from './components/Splash';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Oh.
-        </p>
-      </header>
+      <main>
+        <Splash headerText="Oh."/>
+        <LoginForm />
+      </main>
     </div>
   );
 }

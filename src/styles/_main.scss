@@ -1,0 +1,14 @@
+body {
+    background-color: $dark-primary;
+    color: $white;
+    font-family: 'Roboto', serif;
+}
+
+main {
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}

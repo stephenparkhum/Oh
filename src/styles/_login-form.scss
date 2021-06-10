@@ -1,0 +1,14 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+
+    button:not(:last-child) {
+        margin: 20px 0;
+    }
+
+    input, 
+    label, 
+    p {
+        color: $white;
+    }
+}
