@@ -14,9 +14,9 @@ const LoginForm = () => {
             <InputLabel htmlFor="my-password">Password</InputLabel>
             <Input id="my-password" aria-describedby="my-helper-text" />
         </FormControl>
-        <Button variant="contained" color="primary">
-            Login
-        </Button>
+            <Button variant="contained" color="primary">
+                Login
+            </Button>
         <Button variant="contained" color="default">
             Sign-Up
         </Button>
